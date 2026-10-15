@@ -1,0 +1,12 @@
+{
+  "name": "shopkart-mern-ecosystem",
+  "version": "1.0.0",
+  "description": "ShopKart MERN Stack Application (Labs 01 to 05)",
+  "scripts": {
+    "install:all": "npm --prefix Backend install && npm --prefix Frontend install",
+    "start:backend": "npm --prefix Backend start",
+    "dev:backend": "npm --prefix Backend run dev",
+    "dev:frontend": "npm --prefix Frontend run dev",
+    "seed": "npm --prefix Backend run seed"
+  }
+}
